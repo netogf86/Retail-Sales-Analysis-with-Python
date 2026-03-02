@@ -1,65 +1,124 @@
-# Retail Sales Analysis with Python: Exploratory Data Analysis and Business Insights
+📊 Retail Sales Analysis
 
+End-to-End Data Analysis Project | Python | Business Intelligence
 
-1. Business Context
-Retail companies generate large volumes of transactional data, but without proper analysis, it is difficult to extract actionable insights.
-This project explores retail sales data to evaluate sales performance, profitability, and the impact of discount strategies on business outcomes.
+👤 About This Project
 
-3. Project Objective
-. Analyze sales and profit performance
-. Identify trends and patterns in customer purchasing behavior
-. Evaluate the impact of discounts on profitability
-. Provide data-driven business recommendations
+This project simulates a real-world Data Analyst workflow:
+From raw transactional data to actionable business recommendations.
 
-3. Business Questions
-Key business questions:
-. How have sales and profits evolved over time?
-. Which regions and categories generate the highest revenue and profit?
-.  Are there products with high sales but low or negative profitability?
-. Is there seasonality in sales performance?
-. How do discounts affect sales and profit?
-  
-4. Dataset:
-. Source: Superstore Sales Dataset (public dataset)
-. Records: ~10,000 orders
-. Time period: 2014–2017
-. Main features: sales, profit, discount, category, region, order date
+It demonstrates:
 
+Data cleaning and preprocessing
 
-5. Tools & Technologies
-Tools used:
-. Python
-. Pandas
-. NumPy
-. Matplotlib / Seaborn
-. Jupyter Notebook
+KPI definition and metric tracking
 
-6. Analysis Overview
-The analysis includes:
-. Data cleaning and preprocessing
-. Exploratory data analysis (EDA)
-. Aggregations by time, region, and category
-. Correlation analysis between discounts, sales, and profit
-. Data visualization to support insights
+Exploratory data analysis
 
-7. Key insights: #Incluir gráficas
-. Sales increased over time, but profit growth did not follow the same trend.
-. The West region generated the highest sales, but not the highest profit margin.
-. Some high-selling products consistently generated losses due to high discounts.
-. Higher discounts increased sales volume but significantly reduced profitability.
+Business-focused insights
 
-8. Business recommendations:
-. Review discount strategies, especially for low-margin products.
-. Focus on profitable categories rather than purely high-volume sales.
-. Implement targeted promotions instead of broad discounts.
+Data storytelling
 
-9. Project structure:
+🏢 Business Problem
+
+Retail companies often increase sales through discount strategies, but without understanding the impact on profitability.
+
+The challenge:
+
+Are higher sales actually driving sustainable profit?
+
+🎯 Objectives
+
+Analyze revenue and profit trends (2014–2017)
+
+Identify top-performing and underperforming regions/products
+
+Evaluate discount impact on profitability
+
+Detect seasonality patterns
+
+Provide strategic recommendations
+
+📂 Dataset
+
+Source: Superstore Sales Dataset (public dataset)
+
+~10,000 transactions
+
+Time range: 2014–2017
+
+Features: Sales, Profit, Discount, Category, Region, Order Date
+
+🛠 Tech Stack
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib / Seaborn
+
+Jupyter Notebook
+
+🔎 Analytical Approach
+
+Data Cleaning
+
+Handled missing values
+
+Standardized date formats
+
+Created time-based features (Year, Month)
+
+Feature Engineering
+
+Profit Margin calculation
+
+Aggregated KPIs by region, category, and time
+
+Exploratory Data Analysis
+
+Trend analysis
+
+Correlation between discount and profit
+
+Identification of loss-generating products
+
+Visualization & Interpretation
+
+Time series charts
+
+Regional comparisons
+
+Discount impact analysis
+
+📈 Key Findings
+
+📊 Sales increased steadily over time, but profit growth stagnated.
+
+🌎 The West region led in revenue but not in margin performance.
+
+⚠️ Several high-volume products generated negative profit due to high discounts.
+
+🔻 Discounts showed a negative correlation with profit margin.
+
+💡 Business Impact
+
+If implemented, recommendations could:
+
+Improve profit margins by optimizing discount policies
+
+Reduce loss-generating SKUs
+
+Shift focus from volume-driven strategy to margin-driven strategy
+
+📁 Project Structure
 ├── notebooks/
 │   └── superstore_eda.ipynb
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── images/
-│   └── charts/
-└── presentation/
-    └── Executive_Summary.pdf 
+├── presentation/
+└── requirements.txt
