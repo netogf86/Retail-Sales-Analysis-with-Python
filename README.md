@@ -1,87 +1,135 @@
-📊 Retail Sales Analysis
+# 📊 Retail Sales Performance Analysis (2014–2017)
 
 End-to-End Data Analysis Project | Python | Business Intelligence
 
-👤 About This Project
+---
+
+## 📊 Project Overview
+
+This project analyzes a retail dataset containing ~9,900 transactions between 2014 and 2017.  
+The objective is to evaluate revenue growth, regional profitability, product performance, and the impact of discount strategies on profit margins.
+
+The analysis follows a typical Data Analyst workflow: data preparation, exploratory analysis, business insights, and strategic recommendations.
+
+---
+
+## 👤 About This Project
 
 This project simulates a real-world Data Analyst workflow: from raw transactional data to actionable business insights and recommendations.
 
 It demonstrates:
 
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Business-focused insights
-- Data storytelling
+- Data cleaning and preprocessing  
+- Exploratory data analysis  
+- Business-focused insights  
+- Data storytelling  
 
-🏢 Business Problem
+---
+
+## 🏢 Business Problem
 
 Retail companies often increase sales through discount strategies without fully understanding their impact on profitability.
 
 The key question:
 
-Are higher sales actually driving sustainable profit?
+**Are higher sales actually driving sustainable profit?**
 
-🎯 Objectives
+---
 
-- Analyze revenue and profit trends (2014–2017)
-- Identify high-performing and loss-generating regions and products
-- Evaluate the impact of discount levels on profitability
-- Detect seasonality patterns in sales performance
-- Provide strategic business recommendations
+## 🎯 Objectives
 
-📂 Dataset
+- Analyze revenue and profit trends (2014–2017)  
+- Identify high-performing and loss-generating regions and products  
+- Evaluate the impact of discount levels on profitability  
+- Detect seasonality patterns in sales performance  
+- Provide strategic business recommendations  
 
-Source: Superstore Sales Dataset (public dataset)
+---
 
-- ~9,900 transactions
-- Time range: 2014–2017
-- Key features: Sales, Profit, Discount, Category, Region, Order Date
+## 📂 Dataset
 
-🛠 Tech Stack
+**Source:** Superstore Sales Dataset (public dataset)
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
+Dataset characteristics:
 
-🔎 Analytical Approach
+- ~9,900 transactions  
+- Time range: 2014–2017  
+- Multiple product categories  
+- Geographic sales across U.S. states  
 
-Data Cleaning
-- Standardized date formats
+Key features:
+
+- Sales  
+- Profit  
+- Discount  
+- Category / Subcategory  
+- Region / State  
+- Order Date  
+
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 🔎 Analytical Approach
+
+### Data Cleaning
+
+- Standardized date formats  
 - Created time-based features (Year, Month)
 
-Feature Engineering
+### Feature Engineering
+
 - Aggregated KPIs by region, category, and time
 
-Exploratory Data Analysis
-- Sales trends over time
-- Geographic performance analysis
-- Product category and subcategory performance
-- Discount impact on profitability
+### Exploratory Data Analysis
 
-Visualization & Interpretation
-- Time series charts
-- Regional comparisons
-- Discount vs profit analysis
+- Sales trends over time  
+- Geographic performance analysis  
+- Product category and subcategory performance  
+- Discount impact on profitability  
 
-📈 Key Findings
+### Visualization & Interpretation
 
-- Sales increased steadily over time, but profit growth did not increase at the same pace.
-- High-revenue states such as Texas and Pennsylvania generated negative total profit.
-- Certain product segments generated strong revenue but weak profitability.
-- Higher discount levels tend to correlate with lower profitability.
+- Time series charts  
+- Regional comparisons  
+- Discount vs profit analysis  
 
-💡 Business Impact
+---
 
-If implemented, recommendations could:
+## 📈 Key Insights
 
-- Improve profit margins by optimizing discount policies
-- Reduce loss-generating products
-- Shift focus from volume-driven strategy to margin-driven strategy
+• Sales grew significantly after 2016, indicating strong business expansion.
 
-📁 Project Structure
+• High-revenue states such as **Texas** and **Pennsylvania** generated negative total profit, revealing structural margin inefficiencies.
 
-├── ERGF_Retail_Sales_Analysis.ipynb
-├── dataset.csv
+• Certain product segments generated strong revenue but weak profitability.
+
+• Higher discount levels show a negative relationship with profitability.
+
+---
+
+## 💡 Business Impact
+
+If implemented, the recommendations could:
+
+- Improve profit margins by optimizing discount policies  
+- Reduce loss-generating products  
+- Shift focus from volume-driven strategy to margin-driven strategy  
+
+---
+
+## 📁 Project Structure
+
+├── ERGF_Retail_Sales_Analysis.ipynb  
+├── superstore.csv  
+├── Retail_Sales_Presentation.pdf  
 └── README.md
