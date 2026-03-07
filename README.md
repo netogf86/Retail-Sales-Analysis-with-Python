@@ -130,6 +130,6 @@ If implemented, the recommendations could:
 ## 📁 Project Structure
 
 ├── ERGF_Retail_Sales_Analysis.ipynb  
-├── superstore.csv  
-├── Retail_Sales_Presentation.pdf  
-└── README.md
+├── ERGF_Retail_Sales_Presentation.pdf 
+├── README.md 
+└── US Superstore data.csv 
